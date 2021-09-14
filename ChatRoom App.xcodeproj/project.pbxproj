@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2523D84B26F1258C00F65F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D84A26F1258C00F65F69 /* AppDelegate.swift */; };
 		2523D84D26F1258C00F65F69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D84C26F1258C00F65F69 /* SceneDelegate.swift */; };
-		2523D84F26F1258C00F65F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D84E26F1258C00F65F69 /* ViewController.swift */; };
+		2523D84F26F1258C00F65F69 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D84E26F1258C00F65F69 /* WelcomeViewController.swift */; };
 		2523D85226F1258C00F65F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2523D85026F1258C00F65F69 /* Main.storyboard */; };
 		2523D85426F1258D00F65F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2523D85326F1258D00F65F69 /* Assets.xcassets */; };
 		2523D85726F1258D00F65F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2523D85526F1258D00F65F69 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		2523D84726F1258C00F65F69 /* ChatRoom App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatRoom App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2523D84A26F1258C00F65F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2523D84C26F1258C00F65F69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2523D84E26F1258C00F65F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2523D84E26F1258C00F65F69 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		2523D85126F1258C00F65F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2523D85326F1258D00F65F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2523D85626F1258D00F65F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		2523D84926F1258C00F65F69 /* ChatRoom App */ = {
 			isa = PBXGroup;
 			children = (
+				2523D86026F1395A00F65F69 /* Models */,
 				2523D84A26F1258C00F65F69 /* AppDelegate.swift */,
 				2523D84C26F1258C00F65F69 /* SceneDelegate.swift */,
-				2523D84E26F1258C00F65F69 /* ViewController.swift */,
-				2523D85026F1258C00F65F69 /* Main.storyboard */,
+				2523D85F26F1393800F65F69 /* Controllers */,
+				2523D85E26F1392500F65F69 /* Views */,
 				2523D85326F1258D00F65F69 /* Assets.xcassets */,
 				2523D85526F1258D00F65F69 /* LaunchScreen.storyboard */,
 				2523D85826F1258D00F65F69 /* Info.plist */,
 			);
 			path = "ChatRoom App";
+			sourceTree = "<group>";
+		};
+		2523D85E26F1392500F65F69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2523D85026F1258C00F65F69 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2523D85F26F1393800F65F69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2523D84E26F1258C00F65F69 /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2523D86026F1395A00F65F69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2523D84F26F1258C00F65F69 /* ViewController.swift in Sources */,
+				2523D84F26F1258C00F65F69 /* WelcomeViewController.swift in Sources */,
 				2523D84B26F1258C00F65F69 /* AppDelegate.swift in Sources */,
 				2523D84D26F1258C00F65F69 /* SceneDelegate.swift in Sources */,
 			);
