@@ -21,7 +21,6 @@
 		25982FBA272358A200BB2643 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25982FB8272358A200BB2643 /* MessageCell.swift */; };
 		25982FBB272358A200BB2643 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25982FB9272358A200BB2643 /* MessageCell.xib */; };
 		25982FBE272A1DFC00BB2643 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 25982FBD272A1DFC00BB2643 /* IQKeyboardManagerSwift */; };
-		25CEE069270FA0FA00F7CD06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25CEE068270FA0FA00F7CD06 /* GoogleService-Info.plist */; };
 		3E18DEEB50C9AB4CB644BA37 /* Pods_ChatRoom_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 062CF6FB026F7C33FF6E56ED /* Pods_ChatRoom_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 		25982FB6272271B600BB2643 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		25982FB8272358A200BB2643 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		25982FB9272358A200BB2643 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
-		25CEE068270FA0FA00F7CD06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84466E81CE1F19786F2EA3A1 /* Pods-ChatRoom App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatRoom App.debug.xcconfig"; path = "Target Support Files/Pods-ChatRoom App/Pods-ChatRoom App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +87,6 @@
 				2523D85326F1258D00F65F69 /* Assets.xcassets */,
 				2523D85526F1258D00F65F69 /* LaunchScreen.storyboard */,
 				2523D85826F1258D00F65F69 /* Info.plist */,
-				25CEE068270FA0FA00F7CD06 /* GoogleService-Info.plist */,
 				25982FB42722208C00BB2643 /* Constants.swift */,
 			);
 			path = "ChatRoom App";
@@ -208,7 +205,6 @@
 			files = (
 				25982FBB272358A200BB2643 /* MessageCell.xib in Resources */,
 				2523D85726F1258D00F65F69 /* LaunchScreen.storyboard in Resources */,
-				25CEE069270FA0FA00F7CD06 /* GoogleService-Info.plist in Resources */,
 				2523D85426F1258D00F65F69 /* Assets.xcassets in Resources */,
 				2523D85226F1258C00F65F69 /* Main.storyboard in Resources */,
 			);
